@@ -1,0 +1,54 @@
+body{
+  font-family: 'Raleway';
+}
+#header{
+  text-align: right;
+  padding-top: 60px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #008080;
+}
+#hero{
+  padding-top: 5px;
+  max-width: 100%;
+  float: left;
+
+}
+
+#logo{
+    height: 72px;
+    margin-right: 1em;
+    vertical-align: top;
+    margin-top: 12px;
+    float: left;
+}
+.headers{
+  text-decoration-line: underline;
+  text-decoration-color:#008080;
+}
+.card-deck{
+  display: flex;
+}
+.card{
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: black;
+}
+.card-img-top{
+  padding-right: -15px;
+  padding-left:-15px;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 1000px){
+  .card-deck{
+    display: block;
+  }
+
+}
+@media screen and (max-width: 400px){
+  #logo{
+    height: 75px;
+  }
+}
