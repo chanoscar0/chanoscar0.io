@@ -77,7 +77,7 @@ body{
 }
 .link{
   display: grid;
-  grid-template-columns: repeat(4, 3fr);
+  grid-template-columns: repeat(4, 5fr);
 }
 .card{
   margin-right: 5px;
@@ -92,14 +92,22 @@ body{
   width: 100%;
   height: auto;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1275px){
+  .link{
+    grid-template-columns: repeat(2, 5fr);
+  }
+}
+@media screen and (max-width: 600px){
   .card-deck{
     display: block;
   }
 
+
 }
-@media screen and (max-width: 400px){
-  #logo{
-    height: 75px;
+
+@media screen and (max-width: 650px){
+
+  .link{
+    grid-template-columns: repeat(1, 5fr);
   }
 }
