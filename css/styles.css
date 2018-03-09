@@ -75,6 +75,10 @@ body{
 .card-deck{
   display: flex;
 }
+.link{
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+}
 .card{
   margin-right: 5px;
   margin-bottom: 5px;
