@@ -2,6 +2,7 @@ body{
   font-family: 'Raleway';
   background-color: #EFEFEF;
 }
+
 .hero{
   background-image: url('../images/Macbook.jpeg');
   height: 100vh;
@@ -11,6 +12,16 @@ body{
   display: flex;
   flex-direction: column;
 
+  align-items: center;
+  justify-content: center;
+}
+.link{
+}
+.footer{
+  font-size: 1.5em;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
