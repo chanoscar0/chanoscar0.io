@@ -2,8 +2,8 @@ body{
   font-family: 'Raleway';
   background-color: #EFEFEF;
 }
-a:link{
-  color: #70D4B4;
+.contact {
+  color: #70D4B4 !important;
 }
 
 .hero{
